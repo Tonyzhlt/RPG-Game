@@ -184,7 +184,7 @@ void setup () {
   //Darkness
   noStroke();
   darkness = new ArrayList<DarknessCell> (1000);
-  float size = 5;
+  float size = 10;
   rectMode(CORNER);
   float x = 0, y = 0;
   darkness.add(new DarknessCell(0, 0, size));

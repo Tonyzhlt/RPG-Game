@@ -71,6 +71,12 @@ void drawGameObjects() {
         i--;
       }
     }
+    //else if (myObj.roomX!=myHero.roomX||myObj.roomY!=myHero.roomY){
+    //  if(myObj instanceof dropitem){
+    //    myObjects.remove(i);
+    //    i--;
+    //  }
+    //}
   }
 }
 

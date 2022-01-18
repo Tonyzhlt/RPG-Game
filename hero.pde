@@ -145,7 +145,7 @@ class Hero extends GameObject {
     int iii = 0;
     while (iii < myObjects.size() ) {
       GameObject myObj = myObjects.get(iii);
-      if (myObj instanceof dropitem) {
+      if (myObj instanceof dropitem&&myHero.roomX==myObj.roomX&&myHero.roomY==myObj.roomY) {
 
         if (dist(location.x, location.y, myObj.location.x, myObj.location.y) <= size/2 + myObj.size) {
           dropitem item = (dropitem) myObj;

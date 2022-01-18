@@ -13,7 +13,7 @@ class DarknessCell {
   void show() {
     noStroke();
 
-    opacity = map( dist(x, y, myHero.location.x, myHero.location.y), 0, 2000, 0, 255);
+    opacity = map( dist(x, y, myHero.location.x, myHero.location.y), 0, 1000, 0, 255);
     fill(0, opacity);
     rectMode(CORNER);
     square(x, y, size);
